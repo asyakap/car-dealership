@@ -4,7 +4,7 @@
 
 #### _Description_
 
-_A web car dealership application that allows users to add new cars through a nicely-formatted web interface._
+_A car dealership web application that allows users to add new cars and display list._
 
 ## Technologies Used
 

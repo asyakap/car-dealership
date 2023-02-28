@@ -20,7 +20,7 @@
   <ul>
     @foreach (Car car in Model)
     {
-      <li>@car.Description</li>
+      <li>@car.Make @car.Model, @car.Year, @car.Color</li>
     }
   </ul>
   <a href="/cars/new">Add a new car</a>

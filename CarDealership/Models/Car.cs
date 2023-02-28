@@ -4,12 +4,19 @@ namespace CarDealership.Models
 {
   public class Car
   {
-    public string Description { get; set; }
+    public string Make { get; set; }
+    public string Model { get; set; }
+    public string Year { get; set; }
+    public string Color { get; set; }
     private static List<Car> _instances = new List<Car> { };
 
-    public Car(string description)
+    public Car(string make, string model, string year, string color)
     {
-      Description = description;
+      Make = make;
+      Model = model;
+      Year = year;
+      Color = color;
+
       _instances.Add(this);
     }
 
